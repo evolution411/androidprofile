@@ -1,0 +1,21 @@
+<div class="list">
+   <h5>Post Here</h5>
+   <form id="form">
+
+   <label> Position: </label>
+   <input type="text" name="job-title" maxlength="25" placeholder="Enter your job title">
+   <label> From: </label>
+   <input id='fromdate' type="text" size='10' ng-click="fromdate()">
+   <i class="icon icon ion-calendar"></i></form><br/>
+   <label> To: </label>
+   <i class="icon icon ion-calendar"></i> <br/>
+   <label>Job Description: </label>
+   <label class="item item-input">
+   	<textarea id="advertise" maxlength="150" ng-model="advertise" placeholder="Job Description..."></textarea>
+   	</label>
+   	<span id="response"></span>
+   	<input type="button" id="submit" class="button button-block button-positive" value="Add Post">
+   </form>
+   
+
+</div>

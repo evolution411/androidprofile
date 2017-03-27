@@ -1,0 +1,29 @@
+/* Empty. Add your own CSS if you like */
+.icon{
+	font-size: 50px;
+	position: relative;
+	left:50%;
+}
+.item-avatar{
+	min-width: 100px;
+	min-height: 100px;
+	padding-left:0px;
+	
+}
+.ion-location{
+	
+}
+.item-avatar img#avatar{
+	position: relative;
+	left:48%;
+	min-width: 80px;
+	min-height: 80px;
+}
+.homebanner{
+	background-color: #7C6661;
+	/*height:100% !important;*/
+}
+.custom-home{
+	font-size: 20px;
+	color:blue;
+}
